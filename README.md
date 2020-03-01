@@ -2,8 +2,6 @@
 
 This is my professional resume, made with [JSON Resume](http://jsonresume.org/), using my custom theme, [jsonresume-theme-samk](https://github.com/samkasman/jsonresume-theme-samk).
 
-![Screenshot](https://github.com/samkasman/Resume/blob/master/screenshot.png)
-
 View the exported `pdf` file [here](https://github.com/samkasman/Resume/blob/master/resume.pdf).
 
 

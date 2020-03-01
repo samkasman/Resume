@@ -13,7 +13,7 @@
 
 body {
 	/* background-image: linear-gradient(45deg, #141414 0%, #3984B8 100%); */
-	font-size: 14px;
+	font-size: 13px;
 	font-family: Helvetica, Arial, sans-serif;
 	line-height: 1.4;
 	padding: 15px;
@@ -25,6 +25,17 @@ body {
 	padding: 2rem 3rem;
 }
 
+#header {
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+#header h1,
+.avatar {
+	display: inline-block;
+}
+
 h1, h2, h3, h4 {
 	font-weight: bold;
 }
@@ -34,25 +45,21 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-	font-size: 2.2rem;
+	font-size: 2.0rem;
 	text-transform: uppercase;
 	font-family: 'Press Start 2P', sans-serif;
 }
 
 h2 {
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	border-bottom: 1px dashed #dedede !important;
-	padding-bottom: 8px;
-	margin-bottom: 8px;
+	padding-bottom: 4px;
+	margin-bottom: 1rem;
 	font-family: 'Permanent Marker', sans-serif;
 }
 
-h2:first-of-type {
-	padding-bottom: 24px;
-}
-
 h3 {
-	font-size: 1.6rem;
+	font-size: 1.25rem;
 	font-family: 'Permanent Marker', sans-serif;
 }
 h4 {
@@ -96,10 +103,6 @@ li {
 	margin: 0 0 4px;
 }
 
-.item {
-	padding: .6rem 0;
-}
-
 .city,
 .countryCode,
 .region,
@@ -120,22 +123,22 @@ li {
 	display: flex;
 }
 
+#skills ul {
+	margin-bottom: 0.5rem;
+}
+
 #skills li {
 	display: inline-block;
 	background-image: linear-gradient(45deg, #000 0%, #666 100%);
 	color: white;
 	padding: 2px 6px;
-	border-bottom: 4px solid silver !important;
+	border-bottom: 2px solid silver !important;
 }
 
 #skills .item {
 	display: inline-block;
 	width: 100%;
 	text-align: left;
-}
-
-#skills p {
-	margin-bottom: 0.5rem;
 }
 
 #skills .item:nth-of-type(1),
@@ -153,16 +156,11 @@ li {
 
 #skills .item:nth-of-type(5),
 #skills .item:nth-of-type(6) {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 #work .item {
-	padding: 1rem 0;
-	border-bottom: 1px dashed #dedede !important;
-}
-
-#work .item:last-of-type{
-	border: none;
+	padding: 0 0 .75rem;
 }
 
 #work .item ul {
@@ -177,7 +175,7 @@ li {
 #work .item:nth-of-type(2) li,
 #work .item:nth-of-type(3) li {
 	display: inline-block;
-	width: 25%;
+	width: 22%;
 }
 
 #work .date {
@@ -300,14 +298,14 @@ li {
 				<div class="avatar">
 					<img srcset="https://scontent.fmia1-2.fna.fbcdn.net/v/t31.0-8/p960x960/16722522_1324637390935550_8019568652878761034_o.jpg?_nc_cat&#x3D;105&amp;_nc_sid&#x3D;7aed08&amp;_nc_ohc&#x3D;zLNhcCICwKwAX_JQf8h&amp;_nc_ht&#x3D;scontent.fmia1-2.fna&amp;_nc_tp&#x3D;6&amp;oh&#x3D;f714af010864e90b0047a8ce5268b0ea&amp;oe&#x3D;5EFAB95F">
 				</div>
+				<div class="meta">
+					<h1>Sam Kasman</h1>
+					<p>This resume was generated programatically by <code>code</code> on <span id="today"></span></p>
+				</div>
 			</section>
 		
-			<div class="meta">
-				<h1>Sam Kasman</h1>
-				<h2>👨‍💻 Software Developer</h2>
-			</div>
-		
 			<section id="basics">
+				<h2>👨‍💻 Software Developer</h2>
 				<div class="contact">
 				<div class="email">
 					<strong class="network">
@@ -369,7 +367,17 @@ li {
 					<p>I&#x27;m a lifelong nerd with a passion for creativity through technology. I&#x27;ve been hacking software together since my childhood in the dial-up days of the mid to late &#x27;90s. In college, I studied both Music and Film Production. In 2012, I shifted my professional focus from music and film to software. Since 2018, I&#x27;ve worked remotely, full-time, from my studio/office in Ft. Lauderdale, Florida. In my free time, I enjoy tinkering with hardware/software in my home lab, working on my solo electronic music project (Sam Kaz), and pursuing extreme sports.</p>
 				</div>
 			</section>
-		<section id="skills">
+		
+		<script>
+		var today = new Date();
+		var dd = String(today.getDate()).padStart(2, '0');
+		var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+		var yyyy = today.getFullYear();
+		
+		today = yyyy + '-' + mm + '-' + dd;
+		var todaysDate = document.getElementById("today");
+			todaysDate.innerHTML = today;
+		</script>		<section id="skills">
 			<h2>💪 Skills</h2>
 			<div class="item">
 				<p><strong>
@@ -454,6 +462,7 @@ li {
 					<li>CI/CD</li>
 					<li>Cloud Platforms</li>
 					<li>AWS</li>
+					<li>Microservices</li>
 				</ul>
 			</div>
 			<div class="item">
@@ -487,7 +496,7 @@ li {
 					<li>Optimization</li>
 					<li>Best practices</li>
 					<li>Security</li>
-					<li>OWASP Top Ten</li>
+					<li>OWASP Top 10</li>
 					<li>APIs</li>
 					<li>Git Flow</li>
 				</ul>
