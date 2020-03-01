@@ -1,0 +1,800 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Sam Kasman</title>
+
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body {
+	/* background-image: linear-gradient(45deg, #141414 0%, #3984B8 100%); */
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	padding: 15px;
+}
+
+#resume {
+	margin: 0 auto;
+	width: 850px;
+	padding: 2rem 3rem;
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+h2 {
+	font-size: 1.6rem;
+	border-bottom: 1px dashed #dedede !important;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	font-family: 'Permanent Marker', sans-serif;
+}
+
+h2:first-of-type {
+	padding-bottom: 24px;
+}
+
+h3 {
+	font-size: 1.6rem;
+	font-family: 'Permanent Marker', sans-serif;
+}
+h4 {
+	font-size: 1.0rem;
+}
+
+a {
+	color: #64B1E3;
+}
+
+code {
+	background-image: linear-gradient(45deg, #000 0%, #666 100%);
+	color: white;
+	padding: 2px 6px;
+}
+
+section {
+	padding: 1rem 0;
+}
+
+#header .avatar img {
+	border-radius: 100%;
+	max-width: 100px;
+	margin-right: 1rem;
+	margin-top: .85rem;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+ul {
+	margin-bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	/* display: inline-block; */
+	margin: 0 0 4px;
+}
+
+.item {
+	padding: .6rem 0;
+}
+
+.city,
+.countryCode,
+.region,
+.email,
+.phone,
+.website,
+.profile-item {
+	display: inline-block;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+#profiles {
+	display: flex;
+}
+
+#skills li {
+	display: inline-block;
+	background-image: linear-gradient(45deg, #000 0%, #666 100%);
+	color: white;
+	padding: 2px 6px;
+	border-bottom: 4px solid silver !important;
+}
+
+#skills .item {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+}
+
+#skills p {
+	margin-bottom: 0.5rem;
+}
+
+#skills .item:nth-of-type(1),
+#skills .item:nth-of-type(3),
+#skills .item:nth-of-type(5) {
+	width: 48%;
+}
+
+#skills .item:nth-of-type(2),
+#skills .item:nth-of-type(4),
+#skills .item:nth-of-type(6) {
+	text-align: right;
+	width: 48%;
+}
+
+#skills .item:nth-of-type(5),
+#skills .item:nth-of-type(6) {
+	margin-bottom: 2rem;
+}
+
+#work .item {
+	padding: 1rem 0;
+	border-bottom: 1px dashed #dedede !important;
+}
+
+#work .item:last-of-type{
+	border: none;
+}
+
+#work .item ul {
+	padding: 1rem 0 0 2rem;
+}
+
+#work .item:nth-of-type(2) ul,
+#work .item:nth-of-type(3) ul {
+	padding-left: 0;
+}
+
+#work .item:nth-of-type(2) li,
+#work .item:nth-of-type(3) li {
+	display: inline-block;
+	width: 25%;
+}
+
+#work .date {
+	float: right;
+}
+
+.date {
+	font-size: 14px;
+	color: #444;
+	/* margin-bottom: .5rem; */
+}
+
+#profiles .item,
+.email,
+.phone {
+	padding-right: 2rem;
+}
+
+#education .item,
+#awards .item {
+	display: inline-block;
+	width: 49%;
+}
+
+/* Brand Colors */
+
+/* .HTML5 {
+	border-color:#e44d26 !important;
+}
+.CSS3 {
+	border-color:#2965f1  !important;
+}
+.JavaScript {
+	border-color:#F0DB4F !important;
+}
+.ES6 {
+	border-color:#323330 !important;
+}
+.Vue {
+	border-color:#41B883 !important;
+}
+.React {
+	border-color:#61dbfb  !important;
+}
+.Bootstrap {
+	border-color:#553c7b !important;
+}
+.jQuery {
+	border-color:#0769ad !important;
+}
+.Gatsby {
+	border-color:#663399 !important;
+}
+.Jekyll {
+	border-color:#2b2b2b !important;
+}
+.nginx {
+	border-color:#1c6333 !important;
+}
+.Apache {
+	border-color:#282661 !important;
+}
+.NodeJS {
+	border-color:#43853d !important;
+}
+.PHP7 {
+	border-color:#4F5B93 !important;
+}
+.SQL {
+	border-color:#0074a3 !important;
+}
+.NoSQL {
+	border-color:#13aa52 !important;
+}
+.Laravel {
+	border-color:#ff2d20 !important;
+}
+.WordPress {
+	border-color:#0073aa !important;
+}
+.Express {
+	border-color:#eee !important;
+}
+.Shopify {
+	border-color:#004c3f !important;
+}
+.Magento {
+	border-color:#f26322 !important;
+}
+.macOS {
+	border-color:#a3aaae !important;
+}
+.Debian {
+	border-color:#CE0056 !important;
+}
+.Arch {
+	border-color:#07b !important;
+}
+.Windows {
+	border-color:#0067b8 !important;
+}
+.CentOS {
+	border-color:#262577 !important;
+}
+.Ubuntu {
+	border-color:#e95420 !important;
+}
+.Raspbian {
+	border-color:#c61931 !important;
+} */
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id="resume">
+		
+			<section id="header">
+				<div class="avatar">
+					<img srcset="https://scontent.fmia1-2.fna.fbcdn.net/v/t31.0-8/p960x960/16722522_1324637390935550_8019568652878761034_o.jpg?_nc_cat&#x3D;105&amp;_nc_sid&#x3D;7aed08&amp;_nc_ohc&#x3D;zLNhcCICwKwAX_JQf8h&amp;_nc_ht&#x3D;scontent.fmia1-2.fna&amp;_nc_tp&#x3D;6&amp;oh&#x3D;f714af010864e90b0047a8ce5268b0ea&amp;oe&#x3D;5EFAB95F">
+				</div>
+			</section>
+		
+			<div class="meta">
+				<h1>Sam Kasman</h1>
+				<h2>👨‍💻 Software Developer</h2>
+			</div>
+		
+			<section id="basics">
+				<div class="contact">
+				<div class="email">
+					<strong class="network">
+						E-Mail:
+					</strong>
+					<br/>
+					<a href="mailto:sk@samkasman.com">sk@samkasman.com</a>
+				</div>
+				<div class="phone">
+					<strong class="network">
+						Phone:
+					</strong>
+					<br />
+					<a href="tel:(786) 328-8792">(786) 328-8792</a>
+				</div>
+					<div class="profile-item">
+						<strong class="network">
+							Website
+						</strong>
+						<div class="username">
+							<a target="_blank" href="https://samkasman.com">
+								samkasman.com
+							</a>
+						</div>
+					</div>
+					<div class="profile-item">
+						<strong class="network">
+							GitHub
+						</strong>
+						<div class="username">
+							<a target="_blank" href="https://github.com/samkasman">
+								samkasman
+							</a>
+						</div>
+					</div>
+					<div class="profile-item">
+						<strong class="network">
+							SoundCloud
+						</strong>
+						<div class="username">
+							<a target="_blank" href="https://soundcloud.com/samkazmusic">
+								samkazmusic
+							</a>
+						</div>
+					</div>
+					<div class="profile-item">
+						<strong class="network">
+							Instagram
+						</strong>
+						<div class="username">
+							<a target="_blank" href="https://instagram.com/samkazmusic">
+								samkazmusic
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="summary">
+					<p><strong>About Me</strong></p>
+					<p>I&#x27;m a lifelong nerd with a passion for creativity through technology. I&#x27;ve been hacking software together since my childhood in the dial-up days of the mid to late &#x27;90s. In college, I studied both Music and Film Production. In 2012, I shifted my professional focus from music and film to software. Since 2018, I&#x27;ve worked remotely, full-time, from my studio/office in Ft. Lauderdale, Florida. In my free time, I enjoy tinkering with hardware/software in my home lab, working on my solo electronic music project (Sam Kaz), and pursuing extreme sports.</p>
+				</div>
+			</section>
+		<section id="skills">
+			<h2>💪 Skills</h2>
+			<div class="item">
+				<p><strong>
+					Front-End
+				</strong></p>
+				<ul class="keywords">
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>ES6</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Front-End Frameworks
+				</strong></p>
+				<ul class="keywords">
+					<li>Vue</li>
+					<li>React</li>
+					<li>Bootstrap</li>
+					<li>jQuery</li>
+					<li>Gatsby</li>
+					<li>Jekyll</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Back-End
+				</strong></p>
+				<ul class="keywords">
+					<li>nginx</li>
+					<li>Apache</li>
+					<li>NodeJS</li>
+					<li>PHP7</li>
+					<li>SQL</li>
+					<li>NoSQL</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Back-End Frameworks
+				</strong></p>
+				<ul class="keywords">
+					<li>Laravel</li>
+					<li>WordPress</li>
+					<li>Express</li>
+					<li>Shopify</li>
+					<li>Magento</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Local Environment
+				</strong></p>
+				<ul class="keywords">
+					<li>macOS</li>
+					<li>Debian</li>
+					<li>Arch</li>
+					<li>Windows</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Servers
+				</strong></p>
+				<ul class="keywords">
+					<li>CentOS</li>
+					<li>Debian</li>
+					<li>Ubuntu</li>
+					<li>Raspbian</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					DevOps
+				</strong></p>
+				<ul class="keywords">
+					<li>Infrastructure as Code</li>
+					<li>Source Control</li>
+					<li>Virtualization</li>
+					<li>Containerization</li>
+					<li>CI/CD</li>
+					<li>Cloud Platforms</li>
+					<li>AWS</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Tools
+				</strong></p>
+				<ul class="keywords">
+					<li>cli</li>
+					<li>bash</li>
+					<li>zsh</li>
+					<li>git</li>
+					<li>brew</li>
+					<li>docker</li>
+					<li>docker-compose</li>
+					<li>node</li>
+					<li>npm</li>
+					<li>webpack</li>
+					<li>sass</li>
+					<li>postcss</li>
+					<li>gulp</li>
+					<li>grunt</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Key Knowledge Areas
+				</strong></p>
+				<ul class="keywords">
+					<li>Automation</li>
+					<li>Compatibility</li>
+					<li>Optimization</li>
+					<li>Best practices</li>
+					<li>Security</li>
+					<li>OWASP Top Ten</li>
+					<li>APIs</li>
+					<li>Git Flow</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Multimedia Expertise
+				</strong></p>
+				<ul class="keywords">
+					<li>Adobe Suite</li>
+					<li>Audio Editing/Mixing/Mastering</li>
+					<li>Video Editing</li>
+					<li>Color Grading</li>
+					<li>Media Encoding</li>
+					<li>Media Streaming</li>
+				</ul>
+			</div>
+			<div class="item">
+				<p><strong>
+					Methodologies
+				</strong></p>
+				<ul class="keywords">
+					<li>Agile</li>
+					<li>Atomic design</li>
+					<li>Mobile-first design</li>
+					<li>Responsive design</li>
+					<li>Waterfall</li>
+				</ul>
+			</div>
+		</section>
+		<section id="work">
+			<h2>💼 Experience</h2>
+			<div class="item">
+				<div class="date">
+					🗓
+					<span class="startDate">
+						2019-10-14
+					</span>
+					<span class="endDate">
+						- Present
+					</span>
+				</div>
+				<h4 class="name">
+					24Data, Inc.
+				</h4>
+				<div class="position">
+					<strong>Web Developer (Remote)</strong>
+				</div>
+				<div class="website">
+					https://24data.com
+				</div>
+				<div class="summary">
+					<p>Work 100% remotely as part of a development team to build and continuously integrate/deploy updates for  several internal web applications using Laravel, Vue, Webpack, Babel, Node, npm, git, various APIs (banking/automotive), and of course, HTML, CSS, JS, and PHP.</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓
+					<span class="startDate">
+						2018-10-02
+					</span>
+					<span class="endDate">
+						- 2019-10-13
+					</span>
+				</div>
+				<h4 class="name">
+					Emagine Communications, LLC
+				</h4>
+				<div class="position">
+					<strong>Web Developer (Remote)</strong>
+				</div>
+				<div class="website">
+					https://emagine.com
+				</div>
+				<div class="summary">
+					<p>Worked 100% remotely as part of a development team, to build and continuously integrate/deploy updates for over 100 websites (LAMP stack), including:</p>
+				</div>
+				<ul class="highlights">
+					<li>https://intersystems.com</li>
+					<li>https://evidera.com</li>
+					<li>https://opisnet.com</li>
+					<li>https://fujifilmdiosynth.com</li>
+					<li>https://saintjohnscancer.org</li>
+					<li>https://www.barrowneuro.org</li>
+					<li>https://simulations-plus.com</li>
+					<li>https://medpace.com</li>
+				</ul>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓
+					<span class="startDate">
+						2016-04-08
+					</span>
+					<span class="endDate">
+						- 2018-10-02
+					</span>
+				</div>
+				<h4 class="name">
+					J.M. Field Marketing, Inc.
+				</h4>
+				<div class="position">
+					<strong>Web Developer</strong>
+				</div>
+				<div class="website">
+					https://jmfieldmarketing.com
+				</div>
+				<div class="summary">
+					<p>Worked partially remotely as part of a development team, to build and continuously integrate/deploy updates for over 100 e-commerce websites (LAMP stack), including:</p>
+				</div>
+				<ul class="highlights">
+					<li>https://hedonism.com</li>
+					<li>https://isosciences.com</li>
+					<li>https://absorbinejr.com</li>
+					<li>https://sculpey.com</li>
+					<li>https://clarionbrands.com</li>
+					<li>https://devotionnutrition.com</li>
+					<li>https://silar.com</li>
+					<li>https://emst150.com</li>
+				</ul>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓
+					<span class="startDate">
+						2015-10-01
+					</span>
+					<span class="endDate">
+						- 2016-04-08
+					</span>
+				</div>
+				<h4 class="name">
+					Azulle
+				</h4>
+				<div class="position">
+					<strong>Web Developer</strong>
+				</div>
+				<div class="website">
+					https://azulletech.com
+				</div>
+				<div class="summary">
+					<p>Fulfilled various web and multimedia-related duties.</p>
+				</div>
+				<ul class="highlights">
+					<li>Built, maintained and updated azulletech.com (LAMP stack).</li>
+					<li>Designed graphics for various web and print applications.</li>
+					<li>Shot and edited video, created motion graphics, recorded and mixed audio for various commercials.</li>
+				</ul>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓
+					<span class="startDate">
+						2015-01-01
+					</span>
+					<span class="endDate">
+						- 2015-09-01
+					</span>
+				</div>
+				<h4 class="name">
+					Celebration of the Sea Foundation, Inc.
+				</h4>
+				<div class="position">
+					<strong>Director of Media &amp; Technology</strong>
+				</div>
+				<div class="website">
+					https://celebrationofthesea.org
+				</div>
+				<div class="summary">
+					<p>Fulfilled various multimedia and web-related duties.</p>
+				</div>
+				<ul class="highlights">
+					<li>Built and maintained celebrationofthesea.org (LAMP stack).</li>
+					<li>Built internal web app (LAMP stack) for sponsor/client CRM and project tracking.</li>
+					<li>Linux (CentOS 5) server administration.</li>
+					<li>Designed various event programs and shot/edited video and photos of events.</li>
+				</ul>
+			</div>
+		</section>
+		<section id="education">
+			<h2>🎒 Education</h2>
+			<div class="item">
+				<div class="date">
+					🗓
+					<span class="startDate">
+						2008-09-01
+					</span>
+					<span class="endDate">
+						- 2011-05-01
+					</span>
+				</div>
+				<div class="institution">
+					<strong>Berklee College of Music</strong>
+				</div>
+				<div class="studyType">
+					Bachelor of Music (3 years)
+				</div>
+				<div class="area">
+					Guitar, Professional Music
+				</div>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓
+					<span class="startDate">
+						2012-09-01
+					</span>
+					<span class="endDate">
+						- 2014-05-16
+					</span>
+				</div>
+				<div class="institution">
+					<strong>MDC School of Entertainment &amp; Design Technology</strong>
+				</div>
+				<div class="studyType">
+					Associate of Science
+				</div>
+				<div class="area">
+					Film Production
+				</div>
+			</div>
+		</section>
+		<section id="awards">
+			<h2>😎 Achievements</h2>
+			<div class="item">
+				<div class="date">
+					🗓 2013-01-01
+				</div>
+				<div class="title">
+					<strong>Dean&#x27;s List</strong>
+				</div>
+				<div class="summary">
+					4.0 GPA
+				</div>
+				<div class="awarder">
+					MDC School of Entertainment &amp; Design Technology
+				</div>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓 2007-07-15
+				</div>
+				<div class="title">
+					<strong>Best Performance (Band)</strong>
+				</div>
+				<div class="summary">
+					Winner - 1 Week of Studio Time
+				</div>
+				<div class="awarder">
+					Supernova Entertainment Inc. - BotB
+				</div>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓 2007-06-01
+				</div>
+				<div class="title">
+					<strong>Best 2D Animation</strong>
+				</div>
+				<div class="summary">
+					Winner - Adobe Software Package
+				</div>
+				<div class="awarder">
+					Durham Captivate Media Festival
+				</div>
+			</div>
+			<div class="item">
+				<div class="date">
+					🗓 2006-06-01
+				</div>
+				<div class="title">
+					<strong>Best Documentary</strong>
+				</div>
+				<div class="summary">
+					Nominee
+				</div>
+				<div class="awarder">
+					Durham Captivate Media Festival
+				</div>
+			</div>
+		</section>
+		<section id="references">
+			<h2>📝 References</h2>
+			<p>References are available upon request.</p>
+		</section>	</div>
+
+	<script>
+	// Get skill elements
+	const skillElements = document.querySelectorAll('#skills li');
+	skillElements.forEach(el => { el.outerHTML = '<li class="' + el.innerHTML + '">' + el.innerHTML + '</li>' });
+
+	// Detect URLs and wrap them in <a> tags
+	function urlify(text) {
+		var urlRegex = /(https?:\/\/[^\s]+)/g;
+		return text.replace(urlRegex, function (url) {
+			return '<a target="_blank" href="' + url + '">' + url + '</a>';
+		})
+	}
+
+	// Get elements that might contain URLs
+	const companySites = document.querySelectorAll('#work .website');
+	const clientSites = document.querySelectorAll('#work li');
+
+	// URLify any detected URLs within
+	companySites.forEach(el => { el.innerHTML = urlify(el.innerHTML); });
+	clientSites.forEach(el => { el.innerHTML = urlify(el.innerHTML); });
+	</script>
+
+	</body>
+</html>

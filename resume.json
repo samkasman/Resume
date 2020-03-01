@@ -41,7 +41,7 @@
   "skills": [
     {
       "name": "Front-End",
-      "keywords": ["HTML5", "CSS3", "JavaScript (ES6+)"]
+      "keywords": ["HTML5", "CSS3", "JavaScript", "ES6"]
     },
     {
       "name": "Front-End Frameworks",
@@ -56,7 +56,7 @@
       "keywords": ["Laravel", "WordPress", "Express", "Shopify", "Magento"]
     },
     {
-      "name": "Local Desktop",
+      "name": "Local Environment",
       "keywords": ["macOS", "Debian", "Arch", "Windows"]
     },
     {
@@ -135,7 +135,7 @@
       "position": "Web Developer (Remote)",
       "website": "https://24data.com",
       "startDate": "2019-10-14",
-      "summary": "Work 100% remotely as part of a development team, leveraging Laravel and Vue (LAMP stack), to build and continuously integrate/deploy updates to several internal applications, on an AWS infrastructure."
+      "summary": "Work 100% remotely as part of a development team to build and continuously integrate/deploy updates for  several internal web applications using Laravel, Vue, Webpack, Babel, Node, npm, git, various APIs (banking/automotive), and of course, HTML, CSS, JS, and PHP."
     },
     {
       "company": "Emagine Communications, LLC",
@@ -227,8 +227,8 @@
     {
       "title": "Best Performance (Band)",
       "date": "2007-07-15",
-      "awarder": "Supernova Entertainment Inc.",
-      "summary": "Grand Prize: Studio Time"
+      "awarder": "Supernova Entertainment Inc. - BotB",
+      "summary": "Winner - 1 Week of Studio Time"
     },
     {
       "title": "Best 2D Animation",
