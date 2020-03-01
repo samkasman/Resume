@@ -1,0 +1,27 @@
+{
+  "name": "sam-kasman-resume",
+  "version": "1.0.0",
+  "description": "My professional resume",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jsonresume-theme-samk": "^1.0.0",
+    "resume-cli": "^1.2.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samkasman/SK-Resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Sam Kasman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samkasman/SK-Resume/issues"
+  },
+  "homepage": "https://github.com/samkasman/SK-Resume#readme"
+}

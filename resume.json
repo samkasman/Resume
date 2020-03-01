@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "theme": "samk"
+  },
+  "basics": {
+    "name": "Sam Kasman",
+    "label": "Software Developer",
+    "picture": "https://scontent.fmia1-2.fna.fbcdn.net/v/t31.0-8/p960x960/16722522_1324637390935550_8019568652878761034_o.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_ohc=zLNhcCICwKwAX_JQf8h&_nc_ht=scontent.fmia1-2.fna&_nc_tp=6&oh=f714af010864e90b0047a8ce5268b0ea&oe=5EFAB95F",
+    "email": "sk@samkasman.com",
+    "phone": "(786) 328-8792",
+    "website": "",
+    "summary": "I'm a lifelong nerd with a passion for creativity through technology. I've been hacking software together since my childhood in the dial-up days of the mid to late '90s. In college, I studied both Music and Film Production. In 2012, I shifted my professional focus from music and film to software. Since 2018, I've worked remotely, full-time, from my studio/office in Ft. Lauderdale, Florida. In my free time, I enjoy tinkering with hardware/software in my home lab, working on my solo electronic music project (Sam Kaz), and pursuing extreme sports.",
+    "location": {
+      "city": "Ft. Lauderdale",
+      "region": "Florida",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "Website",
+        "username": "samkasman.com",
+        "url": "https://samkasman.com"
+      },
+      {
+        "network": "GitHub",
+        "username": "samkasman",
+        "url": "https://github.com/samkasman"
+      },
+      {
+        "network": "SoundCloud",
+        "username": "samkazmusic",
+        "url": "https://soundcloud.com/samkazmusic"
+      },
+      {
+        "network": "Instagram",
+        "username": "samkazmusic",
+        "url": "https://instagram.com/samkazmusic"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Front-End",
+      "keywords": ["HTML5", "CSS3", "JavaScript (ES6+)"]
+    },
+    {
+      "name": "Front-End Frameworks",
+      "keywords": ["Vue", "React", "Bootstrap", "jQuery", "Gatsby", "Jekyll"]
+    },
+    {
+      "name": "Back-End",
+      "keywords": ["nginx", "Apache", "NodeJS", "PHP7", "SQL", "NoSQL"]
+    },
+    {
+      "name": "Back-End Frameworks",
+      "keywords": ["Laravel", "WordPress", "Express", "Shopify", "Magento"]
+    },
+    {
+      "name": "Local Desktop",
+      "keywords": ["macOS", "Debian", "Arch", "Windows"]
+    },
+    {
+      "name": "Servers",
+      "keywords": ["CentOS", "Debian", "Ubuntu", "Raspbian"]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Infrastructure as Code",
+        "Source Control",
+        "Virtualization",
+        "Containerization",
+        "CI/CD",
+        "Cloud Platforms",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "cli",
+        "bash",
+        "zsh",
+        "git",
+        "brew",
+        "docker",
+        "docker-compose",
+        "node",
+        "npm",
+        "webpack",
+        "sass",
+        "postcss",
+        "gulp",
+        "grunt"
+      ]
+    },
+    {
+      "name": "Key Knowledge Areas",
+      "keywords": [
+        "Automation",
+        "Compatibility",
+        "Optimization",
+        "Best practices",
+        "Security",
+        "OWASP Top Ten",
+        "APIs",
+        "Git Flow"
+      ]
+    },
+    {
+      "name": "Multimedia Expertise",
+      "keywords": [
+        "Adobe Suite",
+        "Audio Editing/Mixing/Mastering",
+        "Video Editing",
+        "Color Grading",
+        "Media Encoding",
+        "Media Streaming"
+      ]
+    },
+    {
+      "name": "Methodologies",
+      "keywords": [
+        "Agile",
+        "Atomic design",
+        "Mobile-first design",
+        "Responsive design",
+        "Waterfall"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "24Data, Inc.",
+      "position": "Web Developer (Remote)",
+      "website": "https://24data.com",
+      "startDate": "2019-10-14",
+      "summary": "Work 100% remotely as part of a development team, leveraging Laravel and Vue (LAMP stack), to build and continuously integrate/deploy updates to several internal applications, on an AWS infrastructure."
+    },
+    {
+      "company": "Emagine Communications, LLC",
+      "position": "Web Developer (Remote)",
+      "website": "https://emagine.com",
+      "startDate": "2018-10-02",
+      "endDate": "2019-10-13",
+      "summary": "Worked 100% remotely as part of a development team, to build and continuously integrate/deploy updates for over 100 websites (LAMP stack), including:",
+      "highlights": [
+        "https://intersystems.com",
+        "https://evidera.com",
+        "https://opisnet.com",
+        "https://fujifilmdiosynth.com",
+        "https://saintjohnscancer.org",
+        "https://www.barrowneuro.org",
+        "https://simulations-plus.com",
+        "https://medpace.com"
+      ]
+    },
+    {
+      "company": "J.M. Field Marketing, Inc.",
+      "position": "Web Developer",
+      "website": "https://jmfieldmarketing.com",
+      "startDate": "2016-04-08",
+      "endDate": "2018-10-02",
+      "summary": "Worked partially remotely as part of a development team, to build and continuously integrate/deploy updates for over 100 e-commerce websites (LAMP stack), including:",
+      "highlights": [
+        "https://hedonism.com",
+        "https://isosciences.com",
+        "https://absorbinejr.com",
+        "https://sculpey.com",
+        "https://clarionbrands.com",
+        "https://devotionnutrition.com",
+        "https://silar.com",
+        "https://emst150.com"
+      ]
+    },
+    {
+      "company": "Azulle",
+      "position": "Web Developer",
+      "website": "https://azulletech.com",
+      "startDate": "2015-10-01",
+      "endDate": "2016-04-08",
+      "summary": "Fulfilled various web and multimedia-related duties.",
+      "highlights": [
+        "Built, maintained and updated azulletech.com (LAMP stack).",
+        "Designed graphics for various web and print applications.",
+        "Shot and edited video, created motion graphics, recorded and mixed audio for various commercials."
+      ]
+    },
+    {
+      "company": "Celebration of the Sea Foundation, Inc.",
+      "position": "Director of Media & Technology",
+      "website": "https://celebrationofthesea.org",
+      "startDate": "2015-01-01",
+      "endDate": "2015-09-01",
+      "summary": "Fulfilled various multimedia and web-related duties.",
+      "highlights": [
+        "Built and maintained celebrationofthesea.org (LAMP stack).",
+        "Built internal web app (LAMP stack) for sponsor/client CRM and project tracking.",
+        "Linux (CentOS 5) server administration.",
+        "Designed various event programs and shot/edited video and photos of events."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Berklee College of Music",
+      "area": "Guitar, Professional Music",
+      "studyType": "Bachelor of Music (3 years)",
+      "startDate": "2008-09-01",
+      "endDate": "2011-05-01"
+    },
+    {
+      "institution": "MDC School of Entertainment & Design Technology",
+      "area": "Film Production",
+      "studyType": "Associate of Science",
+      "startDate": "2012-09-01",
+      "endDate": "2014-05-16"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2013-01-01",
+      "awarder": "MDC School of Entertainment & Design Technology",
+      "summary": "4.0 GPA"
+    },
+    {
+      "title": "Best Performance (Band)",
+      "date": "2007-07-15",
+      "awarder": "Supernova Entertainment Inc.",
+      "summary": "Grand Prize: Studio Time"
+    },
+    {
+      "title": "Best 2D Animation",
+      "date": "2007-06-01",
+      "awarder": "Durham Captivate Media Festival",
+      "summary": "Winner - Adobe Software Package"
+    },
+    {
+      "title": "Best Documentary",
+      "date": "2006-06-01",
+      "awarder": "Durham Captivate Media Festival",
+      "summary": "Nominee"
+    }
+  ]
+}
