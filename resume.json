@@ -77,9 +77,8 @@
       ]
     },
     {
-      "name": "Tools",
+      "name": "CLI Tools",
       "keywords": [
-        "cli",
         "bash",
         "zsh",
         "git",
