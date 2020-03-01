@@ -4,7 +4,7 @@ This is my professional resume, made with [JSON Resume](http://jsonresume.org/),
 
 View the exported `pdf` file [here](https://github.com/samkasman/Resume/blob/master/resume.pdf).
 
-## To Export PDF/HTML Files
+### To Export PDF/HTML Files
 
 Install dependencies:
 `npm install`
