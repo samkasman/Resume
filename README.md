@@ -1,6 +1,6 @@
 # Resume
 
-This repository contains my constantly maintained resume, built with [JSON Resume](http://jsonresume.org/) using my [custom theme](https://github.com/samkasman/jsonresume-theme-samk) (available via [npm](https://www.npmjs.com/package/jsonresume-theme-samk))
+This repository contains my constantly maintained resume, built with [JSON Resume](http://jsonresume.org/) using my [custom theme](https://github.com/samkasman/jsonresume-theme-samk)
 
 ![Screenshot](https://github.com/samkasman/Resume/blob/master/screenshot.png)
 
