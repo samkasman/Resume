@@ -31,7 +31,7 @@
   "skills": [
     {
       "name": "Front-End",
-      "keywords": ["HTML5", "CSS3", "JavaScript", "ES6", "JSON"]
+      "keywords": ["HTML5", "CSS3", "JavaScript", "ES6", "JSON", "AJAX"]
     },
     {
       "name": "Front-End Frameworks",
@@ -93,7 +93,7 @@
         "Optimization",
         "Best practices",
         "Security",
-        "OWASP Top 10",
+        "OWASP Top Ten",
         "APIs",
         "Git Flow"
       ]
