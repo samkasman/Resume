@@ -17,10 +17,8 @@ To View the full **PDF** version, click [here](https://github.com/samkasman/Resu
 
 #### To Export PDF/HTML Files:
 
-Use the local version of `resume-cli` we just installed, via `node`, to run the export using the theme.
-
-- **PDF**: `node node_modules/resume-cli export --theme=samk resume.pdf`
-- **HTML**: `node node_modules/resume-cli export --theme=samk resume.html`
+- **PDF**: `npm run pdf`
+- **HTML**: `npm run html`
 
 #### Check for Theme Updates
 

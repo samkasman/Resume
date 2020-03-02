@@ -9,7 +9,8 @@
     "resume-cli": "^1.2.7"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html": "node node_modules/resume-cli export --theme=samk resume.html",
+    "pdf": "node node_modules/resume-cli export --theme=samk resume.pdf"
   },
   "repository": {
     "type": "git",
