@@ -7,17 +7,13 @@ This repository contains my constantly maintained resume, built with [JSON Resum
 To View the full **PDF** version, click [here](https://github.com/samkasman/Resume/blob/master/resume.pdf).
 
 ### How to Update
-
-Install dependencies:
-`npm install`
-
-Update dependencies
-`npm update`
+- Clone this repository
+- Install dependencies: `npm install`
+- Update dependencies: `npm update`
 
 #### To Export PDF/HTML Files:
 
 Use the local version of `resume-cli` we just installed, via `node`, to run the export using the theme.
 
-**PDF**: `node node_modules/resume-cli export --theme=samk resume.pdf`
-
-**HTML**: `node node_modules/resume-cli export --theme=samk resume.html`
+- **PDF**: `node node_modules/resume-cli export --theme=samk resume.pdf`
+- **HTML**: `node node_modules/resume-cli export --theme=samk resume.html`
