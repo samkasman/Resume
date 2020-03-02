@@ -17,5 +17,5 @@ Use the local version of `resume-cli` we just installed, via `node`, to run the 
 - **PDF**: `node node_modules/resume-cli export --theme=samk resume.pdf`
 - **HTML**: `node node_modules/resume-cli export --theme=samk resume.html`
 
-### Check for Theme Updates
+#### Check for Theme Updates
 `npm update`
