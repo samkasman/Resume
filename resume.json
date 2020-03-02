@@ -63,8 +63,7 @@
         "CI/CD",
         "SDLC",
         "Cloud",
-        "AWS",
-        "Microservices"
+        "AWS"
       ]
     },
     {
@@ -115,6 +114,7 @@
       "keywords": [
         "Agile",
         "Scrum",
+        "Microservices",
         "Atomic design",
         "Mobile-first design",
         "Responsive design",
