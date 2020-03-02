@@ -6,7 +6,7 @@ This repository contains my constantly maintained resume, built with [JSON Resum
 
 To View the full **PDF** version, click [here](https://github.com/samkasman/Resume/blob/master/resume.pdf).
 
-### To Install:
+#### To Install:
 
 - `git clone` this repository
 - Install dependencies: `npm install`
