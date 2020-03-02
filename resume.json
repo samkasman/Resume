@@ -25,27 +25,17 @@
         "network": "GitHub",
         "username": "samkasman",
         "url": "https://github.com/samkasman"
-      },
-      {
-        "network": "SoundCloud",
-        "username": "samkazmusic",
-        "url": "https://soundcloud.com/samkazmusic"
-      },
-      {
-        "network": "Instagram",
-        "username": "samkazmusic",
-        "url": "https://instagram.com/samkazmusic"
       }
     ]
   },
   "skills": [
     {
       "name": "Front-End",
-      "keywords": ["HTML5", "CSS3", "JavaScript", "ES6"]
+      "keywords": ["HTML5", "CSS3", "JavaScript", "ES6", "JSON"]
     },
     {
       "name": "Front-End Frameworks",
-      "keywords": ["Vue", "React", "Bootstrap", "jQuery", "Gatsby", "Jekyll"]
+      "keywords": ["Vue", "React", "Bootstrap", "jQuery", "Gatsby"]
     },
     {
       "name": "Back-End",
