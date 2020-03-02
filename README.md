@@ -9,7 +9,6 @@ To View the full **PDF** version, click [here](https://github.com/samkasman/Resu
 ### How to Install
 - `git clone` this repository
 - Install dependencies: `npm install`
-- Update dependencies: `npm update`
 
 #### To Export PDF/HTML Files:
 
@@ -17,3 +16,6 @@ Use the local version of `resume-cli` we just installed, via `node`, to run the 
 
 - **PDF**: `node node_modules/resume-cli export --theme=samk resume.pdf`
 - **HTML**: `node node_modules/resume-cli export --theme=samk resume.html`
+
+### Check for Theme Updates
+`npm update`
