@@ -61,7 +61,8 @@
         "Virtualization",
         "Containerization",
         "CI/CD",
-        "Cloud Platforms",
+        "SDLC",
+        "Cloud",
         "AWS",
         "Microservices"
       ]
@@ -77,6 +78,7 @@
         "docker-compose",
         "node",
         "npm",
+        "composer",
         "webpack",
         "sass",
         "postcss",
