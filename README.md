@@ -10,6 +10,9 @@ To View the full **PDF** version, click [here](https://github.com/samkasman/Resu
 - `git clone` this repository
 - Install dependencies: `npm install`
 
+#### To Update Resume Content:
+- Edit `resume.json` file
+
 #### To Export PDF/HTML Files:
 
 Use the local version of `resume-cli` we just installed, via `node`, to run the export using the theme.
