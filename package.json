@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "jsonresume-theme-samk": "^1.0.2",
+    "jsonresume-theme-samk": "^1.0.3",
     "resume-cli": "^1.2.7"
   },
   "scripts": {
