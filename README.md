@@ -4,11 +4,9 @@ This repository contains my constantly maintained resume, built with [JSON Resum
 
 ![Screenshot](https://github.com/samkasman/Resume/blob/master/screenshot.png)
 
-View the exported `pdf` file [here](https://github.com/samkasman/Resume/blob/master/resume.pdf).
+To View the full `pdf` version, click [here](https://github.com/samkasman/Resume/blob/master/resume.pdf).
 
-
-
-### To Export PDF/HTML Files
+### To Export PDF/HTML Files:
 
 Install dependencies:
 `npm install`
