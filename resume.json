@@ -9,7 +9,7 @@
     "email": "sk@samkasman.com",
     "phone": "(786) 328-8792",
     "website": "",
-    "summary": "I have a passion for creativity through technology. I've been hacking software together since my childhood in the dial-up days of the mid to late '90s. In college, I studied Music and then Film Production. In 2012, I shifted my professional focus to software. Since 2018, I've worked remotely, full-time, from Ft. Lauderdale, Florida. In my free time, I enjoy tinkering with hardware/software in my home lab, working on music projects, and pursuing extreme sports.",
+    "summary": "I have a passion for creativity through technology. I've been hacking software together since my childhood in the dial-up days of the mid to late '90s. In college, I studied Professional Music, then Film Production. In 2012, I shifted my professional focus to software. Since 2018, I've worked remotely, full-time, from my studio in Ft. Lauderdale, Florida. In my free time, I enjoy tinkering with hardware/software in my home lab, working on music/video projects, and pursuing extreme sports.",
     "location": {
       "city": "Ft. Lauderdale",
       "region": "Florida",
@@ -17,25 +17,33 @@
     },
     "profiles": [
       {
-        "network": "Website",
-        "username": "samkasman.com",
-        "url": "https://samkasman.com"
-      },
-      {
         "network": "GitHub",
         "username": "samkasman",
         "url": "https://github.com/samkasman"
+      },
+      {
+        "network": "Website",
+        "username": "samkasman.com",
+        "url": "https://samkasman.com"
       }
     ]
   },
   "skills": [
     {
       "name": "Front-End",
-      "keywords": ["HTML5", "CSS3", "JavaScript", "ES6", "JSON", "AJAX"]
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "ES6",
+        "JSON",
+        "AJAX"
+      ]
     },
     {
       "name": "Front-End Frameworks",
-      "keywords": ["Vue", "React", "Bootstrap", "jQuery", "Gatsby"]
+      "keywords": ["React", "Gatsby", "Vue", "Bootstrap", "jQuery"]
     },
     {
       "name": "Back-End",
@@ -56,8 +64,8 @@
     {
       "name": "DevOps",
       "keywords": [
-        "Infrastructure as Code",
         "Source Control",
+        "Infrastructure as Code",
         "Virtualization",
         "Containerization",
         "CI/CD",
@@ -113,22 +121,22 @@
       "name": "Methodologies",
       "keywords": [
         "Agile",
+        "Kanban",
         "Scrum",
         "Microservices",
         "Atomic design",
         "Mobile-first design",
-        "Responsive design",
-        "Waterfall"
+        "Responsive design"
       ]
     }
   ],
   "work": [
     {
       "company": "24Data, Inc.",
-      "position": "Web Developer (Remote)",
+      "position": "Full-Stack Developer (Remote)",
       "website": "https://24data.com",
       "startDate": "2019-10-14",
-      "summary": "Work 100% remotely as part of a development team to build and continuously integrate/deploy updates for  several internal web applications using Laravel, Vue, Webpack, Babel, Node, npm, git, various APIs (banking/automotive), and of course, HTML, CSS, JS, and PHP."
+      "summary": "Work 100% remotely as part of a development team to build and continuously integrate/deploy updates for several public and private web applications using Laravel, Vue, Webpack, Babel, Typescript, Node, npm, git, various APIs (banking/automotive), and of course, HTML, CSS, JS, and PHP."
     },
     {
       "company": "Emagine Communications, LLC",
